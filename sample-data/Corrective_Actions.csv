@@ -1,0 +1,36 @@
+﻿ActionID,IncidentID,ActionTitle,AssignedTo,Priority,DueDate,Status,CompletedDate,Notes
+ACT-001,INC-001,Review forklift traffic management plan,Zoe Mitchell,Critical,2026-05-17,Not Started,,Owner assigned and due date set.
+ACT-002,INC-011,Replace damaged extension lead,Ethan Martin,High,2026-05-09,In Progress,,Requires evidence before closure.
+ACT-003,INC-018,Place wet floor signage and review cleaning process,Olivia Taylor,High,2026-05-16,Complete,2026-05-06,Follow-up required at next toolbox meeting.
+ACT-004,INC-007,Clear emergency exit and remind site team,Jack Harris,Medium,2026-05-11,In Progress,,Owner assigned and due date set.
+ACT-005,INC-022,Update chemical label and storage record,Mason Young,Medium,2026-05-12,Not Started,,Owner assigned and due date set.
+ACT-006,INC-008,Complete injury follow-up and toolbox talk,Jack Harris,Low,2026-05-10,Not Started,,Follow-up required at next toolbox meeting.
+ACT-007,INC-008,Inspect and secure machine guarding,Hunter Adams,High,2026-05-09,In Progress,,Owner assigned and due date set.
+ACT-008,INC-002,Reroute loose cable away from walkway,Jack Harris,Medium,2026-05-17,Not Started,,Requires evidence before closure.
+ACT-009,INC-013,Review pedestrian separation controls,Liam Carter,Critical,2026-05-07,Not Started,,Waiting for site confirmation.
+ACT-010,INC-015,Clean spill and update spill kit checklist,Mason Young,Critical,2026-06-05,In Progress,,Demo data for OperationsFlow reporting.
+ACT-011,INC-022,Confirm fire extinguisher service date,Liam Carter,Medium,2026-05-15,Not Started,,Demo data for OperationsFlow reporting.
+ACT-012,INC-002,Refresh PPE signage and staff reminder,Ruby Clark,Medium,2026-06-09,Not Started,,Demo data for OperationsFlow reporting.
+ACT-013,INC-006,Retrain staff on safe trolley loading,Mia Wilson,Medium,2026-05-22,Not Started,,Requires evidence before closure.
+ACT-014,INC-013,Repair shelving edge protector,Ruby Clark,Medium,2026-05-15,Complete,2026-05-13,Demo data for OperationsFlow reporting.
+ACT-015,INC-003,Check compressor noise controls,Zoe Mitchell,Medium,2026-06-22,Complete,2026-06-17,Waiting for site confirmation.
+ACT-016,INC-008,Remove ladder from use until repaired,Aria Scott,High,2026-06-02,In Progress,,Follow-up required at next toolbox meeting.
+ACT-017,INC-011,Update housekeeping checklist,Ruby Clark,Critical,2026-05-09,Not Started,,Owner assigned and due date set.
+ACT-018,INC-003,Replace rear doorway light fitting,Ethan Martin,Low,2026-07-07,Not Started,,Waiting for site confirmation.
+ACT-019,INC-003,Run manual handling refresher,Hunter Adams,Medium,2026-05-19,In Progress,,Waiting for site confirmation.
+ACT-020,INC-020,Repair water leak and isolate risk,Hunter Adams,Medium,2026-07-06,Not Started,,Owner assigned and due date set.
+ACT-021,INC-005,Confirm contractor induction status,Mia Wilson,High,2026-06-02,Not Started,,Requires evidence before closure.
+ACT-022,INC-009,Restock first aid kit,Aria Scott,High,2026-05-14,Not Started,,Waiting for site confirmation.
+ACT-023,INC-017,Review pallet jack operating process,Zoe Mitchell,High,2026-07-01,In Progress,,Owner assigned and due date set.
+ACT-024,INC-021,Clean cutting area and add inspection task,Liam Carter,Medium,2026-06-23,Complete,2026-06-27,Requires evidence before closure.
+ACT-025,INC-021,Complete missed pre-start checklist,Grace Lee,Medium,2026-06-02,Not Started,,Follow-up required at next toolbox meeting.
+ACT-026,INC-018,Create weekly safety walk checklist,Zoe Mitchell,High,2026-05-01,Not Started,,Requires evidence before closure.
+ACT-027,INC-018,Update incident reporting procedure,Jack Harris,Low,2026-05-04,Complete,2026-05-05,Waiting for site confirmation.
+ACT-028,INC-012,Assign manager review for high-risk item,Aria Scott,Medium,2026-05-05,Complete,2026-05-04,Owner assigned and due date set.
+ACT-029,INC-012,Upload completion evidence,Mason Young,Low,2026-06-21,Cancelled,,Requires evidence before closure.
+ACT-030,INC-006,Check similar equipment across site,Noah Brown,High,2026-05-22,Complete,2026-05-27,Waiting for site confirmation.
+ACT-031,INC-014,Create reminder for training renewal,Isla Green,High,2026-05-31,In Progress,,Follow-up required at next toolbox meeting.
+ACT-032,INC-002,Add hazard to site risk register,Hunter Adams,Critical,2026-06-29,Not Started,,Waiting for site confirmation.
+ACT-033,INC-010,Review controls at next team meeting,Aria Scott,Low,2026-05-29,Not Started,,Waiting for site confirmation.
+ACT-034,INC-009,Confirm corrective action effectiveness,Ethan Martin,Medium,2026-05-08,Cancelled,,Demo data for OperationsFlow reporting.
+ACT-035,INC-013,Close incident after evidence review,Liam Carter,Low,2026-07-07,In Progress,,Waiting for site confirmation.

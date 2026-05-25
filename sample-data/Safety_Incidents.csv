@@ -1,0 +1,26 @@
+﻿IncidentID,Title,IncidentDate,Site,Category,RiskLevel,ReportedBy,AssignedManager,Status,RequiresCorrectiveAction,Description
+INC-001,Forklift near miss in loading bay,2026-03-04,Rotorua,Near Miss,Critical,Noah Brown,Vanessa King,Action Required,Yes,Requires review to confirm controls are suitable and action is completed.
+INC-002,Damaged extension lead found in workshop,2026-05-13,Whakatāne,Near Miss,High,Olivia Taylor,Aroha Williams,Under Review,Yes,Requires review to confirm controls are suitable and action is completed.
+INC-003,Slip hazard near main entrance,2026-05-21,Hamilton,Injury,Medium,Olivia Taylor,James Walker,New,Yes,Requires review to confirm controls are suitable and action is completed.
+INC-004,Blocked emergency exit,2026-04-19,Rotorua,Environmental,High,Jack Harris,Sarah Patel,Action Required,Yes,Potential risk identified during daily operations and assigned for follow-up.
+INC-005,Chemical container missing label,2026-05-05,Auckland,Hazard,Low,Sophie Anderson,Sarah Patel,Closed,Yes,Requires review to confirm controls are suitable and action is completed.
+INC-006,Minor hand injury during packing,2026-04-21,Hamilton,Hazard,High,Jack Harris,Vanessa King,Action Required,Yes,Requires review to confirm controls are suitable and action is completed.
+INC-007,Machine guard left open,2026-04-17,Tauranga,Property Damage,High,Olivia Taylor,Vanessa King,Action Required,Yes,Issue reported during routine site walk-around and entered for review.
+INC-008,Trip hazard from loose cable,2026-03-01,Whakatāne,Near Miss,Low,Mia Wilson,James Walker,Under Review,Yes,Potential risk identified during daily operations and assigned for follow-up.
+INC-009,Vehicle reversing near pedestrian walkway,2026-03-27,Tauranga,Incident,High,Olivia Taylor,Sarah Patel,Under Review,Yes,Issue reported during routine site walk-around and entered for review.
+INC-010,Oil spill in storage area,2026-03-08,Rotorua,Near Miss,High,Grace Lee,James Walker,Action Required,Yes,Potential risk identified during daily operations and assigned for follow-up.
+INC-011,Expired fire extinguisher tag,2026-03-04,Tauranga,Hazard,High,Olivia Taylor,Vanessa King,Under Review,Yes,Potential risk identified during daily operations and assigned for follow-up.
+INC-012,PPE not worn in marked area,2026-04-03,Hamilton,Environmental,Medium,Sophie Anderson,Mark Thompson,Under Review,Yes,Reported as part of general housekeeping and safety checks.
+INC-013,Unsecured load on trolley,2026-04-04,Rotorua,Incident,Critical,Noah Brown,Mark Thompson,Action Required,Yes,Requires review to confirm controls are suitable and action is completed.
+INC-014,Sharp edge found on shelving,2026-03-17,Hamilton,Injury,Medium,Sophie Anderson,Mark Thompson,Action Required,Yes,Staff member noticed the issue and reported it before further work continued.
+INC-015,Noise complaint from compressor area,2026-03-20,Whakatāne,Near Miss,Medium,Noah Brown,James Walker,Action Required,Yes,Requires review to confirm controls are suitable and action is completed.
+INC-016,Broken step on portable ladder,2026-05-16,Auckland,Property Damage,Medium,Ethan Martin,Aroha Williams,Action Required,Yes,Issue reported during routine site walk-around and entered for review.
+INC-017,Overfilled rubbish bin blocking walkway,2026-02-26,Hamilton,Incident,High,Sophie Anderson,Vanessa King,Action Required,Yes,Potential risk identified during daily operations and assigned for follow-up.
+INC-018,Poor lighting near rear doorway,2026-03-30,Tauranga,Property Damage,Low,Noah Brown,Aroha Williams,New,Yes,Issue reported during routine site walk-around and entered for review.
+INC-019,Incorrect manual handling observed,2026-03-05,Hamilton,Near Miss,Medium,Noah Brown,Sarah Patel,Action Required,Yes,Staff member noticed the issue and reported it before further work continued.
+INC-020,Water leak near electrical cabinet,2026-03-16,Whakatāne,Property Damage,Critical,Sophie Anderson,James Walker,Closed,Yes,Issue reported during routine site walk-around and entered for review.
+INC-021,Contractor arrived without induction record,2026-05-10,Tauranga,Near Miss,Critical,Liam Carter,Mark Thompson,Closed,Yes,Requires review to confirm controls are suitable and action is completed.
+INC-022,First aid kit missing stock,2026-05-14,Whakatāne,Property Damage,Low,Noah Brown,Mark Thompson,Action Required,Yes,Reported as part of general housekeeping and safety checks.
+INC-023,Near miss with pallet jack,2026-03-15,Hamilton,Injury,Low,Olivia Taylor,Aroha Williams,Action Required,Yes,Staff member noticed the issue and reported it before further work continued.
+INC-024,Dust build-up near cutting area,2026-04-15,Tauranga,Injury,Medium,Lucas Moore,James Walker,Action Required,Yes,Issue reported during routine site walk-around and entered for review.
+INC-025,Vehicle pre-start checklist missed,2026-04-23,Hamilton,Property Damage,Low,Olivia Taylor,Aroha Williams,Under Review,Yes,Staff member noticed the issue and reported it before further work continued.

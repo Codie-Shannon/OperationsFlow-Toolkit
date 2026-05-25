@@ -1,0 +1,26 @@
+﻿TrainingID,StaffName,Role,TrainingType,IssueDate,ExpiryDate,Status,DaysUntilExpiry,Manager
+TRN-001,Noah Brown,Admin Coordinator,First Aid,2024-08-09,2026-04-21,Expired,-34,Aroha Williams
+TRN-002,Jack Harris,Operations Assistant,First Aid,2025-04-07,2026-04-14,Expired,-41,James Walker
+TRN-003,Zoe Mitchell,Warehouse Assistant,Site Induction,2024-08-13,2026-04-30,Expired,-25,James Walker
+TRN-004,Liam Carter,Field Technician,Fire Warden,2024-10-10,2026-03-17,Expired,-69,James Walker
+TRN-005,Mia Wilson,Health & Safety Rep,First Aid,2024-05-15,2026-04-12,Expired,-43,Sarah Patel
+TRN-006,Lucas Moore,Operations Assistant,Fire Warden,2025-05-14,2026-06-16,Expiring Soon,22,James Walker
+TRN-007,Mason Young,Forklift Operator,Working at Heights,2025-05-28,2026-06-12,Expiring Soon,18,James Walker
+TRN-008,Aria Scott,Forklift Operator,Manual Handling,2025-03-03,2026-06-16,Expiring Soon,22,James Walker
+TRN-009,Lucas Moore,Warehouse Assistant,Working at Heights,2026-03-26,2026-06-04,Expiring Soon,10,James Walker
+TRN-010,Isla Green,Health & Safety Rep,Driver Safety,2024-08-10,2026-06-14,Expiring Soon,20,James Walker
+TRN-011,Grace Lee,Contractor,Forklift Licence,2024-05-04,2026-06-01,Expiring Soon,7,Vanessa King
+TRN-012,Ethan Martin,Health & Safety Rep,First Aid,2024-10-15,2026-06-16,Expiring Soon,22,Mark Thompson
+TRN-013,Aria Scott,Field Technician,Forklift Licence,2025-05-13,2026-06-02,Expiring Soon,8,Vanessa King
+TRN-014,Liam Carter,Site Supervisor,Driver Safety,2025-07-19,2027-02-23,Valid,274,James Walker
+TRN-015,Zoe Mitchell,Field Technician,Hazardous Substances,2024-06-20,2027-04-15,Valid,325,James Walker
+TRN-016,Jack Harris,Admin Coordinator,First Aid,2025-07-20,2026-09-08,Valid,106,James Walker
+TRN-017,Olivia Taylor,Contractor,Site Induction,2025-09-27,2027-08-10,Valid,442,Aroha Williams
+TRN-018,Olivia Taylor,Forklift Operator,Driver Safety,2025-11-22,2027-02-13,Valid,264,Aroha Williams
+TRN-019,Lucas Moore,Contractor,Hazardous Substances,2024-07-25,2026-12-04,Valid,193,Aroha Williams
+TRN-020,Grace Lee,Contractor,Driver Safety,2025-10-15,2027-07-10,Valid,411,Sarah Patel
+TRN-021,Isla Green,Warehouse Assistant,Driver Safety,2025-07-16,2027-08-29,Valid,461,Mark Thompson
+TRN-022,Ethan Martin,Warehouse Assistant,Working at Heights,2024-12-31,2026-08-03,Valid,70,Sarah Patel
+TRN-023,Sophie Anderson,Site Supervisor,Forklift Licence,2025-05-03,2027-09-25,Valid,488,Mark Thompson
+TRN-024,Olivia Taylor,Forklift Operator,Working at Heights,2025-02-27,2027-06-15,Valid,386,Vanessa King
+TRN-025,Jack Harris,Contractor,Hazardous Substances,2025-02-02,2026-12-11,Valid,200,Vanessa King
