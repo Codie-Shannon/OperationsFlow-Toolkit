@@ -1,0 +1,41 @@
+JobID,JobName,Client,Site,JobType,Status,CreatedDate,DueDate,CompletedDate,AssignedTo,Priority,EstimatedHours,ActualHours,Notes
+JOB-001,Workshop lighting repair,Bay Industrial,Whakatāne,Repair,Completed,2026-04-02,2026-04-09,2026-04-08,Ethan Martin,Medium,6,5.5,Completed one day early.
+JOB-002,Monthly forklift inspection,East Coast Logistics,Tauranga,Inspection,Completed,2026-04-05,2026-04-12,2026-04-12,Zoe Mitchell,High,4,4,Inspection completed with minor notes.
+JOB-003,SharePoint job folder cleanup,Allied Operations,Whakatāne,Admin,In Progress,2026-04-08,2026-05-28,,Codie Shannon,Medium,8,5,Folder structure being cleaned and documented.
+JOB-004,Power BI work order report,Allied Operations,Whakatāne,Reporting,In Progress,2026-04-10,2026-05-30,,Codie Shannon,High,12,7.5,Dashboard draft created and measures under review.
+JOB-005,Compressor service booking,Harbour Engineering,Auckland,Maintenance,Waiting on Client,2026-04-12,2026-05-20,,Sarah Patel,Medium,3,1.5,Waiting on client to confirm service window.
+JOB-006,Site safety signage install,North Yard,Rotorua,Installation,Completed,2026-04-15,2026-04-22,2026-04-21,James Walker,Low,5,4.5,Signage installed and checked.
+JOB-007,Automated reminder workflow,Allied Operations,Whakatāne,Automation,In Progress,2026-04-18,2026-05-31,,Codie Shannon,High,10,6,Reminder logic being tested with sample data.
+JOB-008,Generator inspection,Southern Storage,Hamilton,Inspection,Overdue,2026-04-20,2026-05-10,,Liam Carter,Critical,4,2,Inspection overdue due to site access delay.
+JOB-009,Hydraulic hose replacement,Port Services,Tauranga,Repair,Completed,2026-04-21,2026-04-29,2026-04-28,Hunter Adams,High,7,6.5,Replacement completed and tested.
+JOB-010,Customer invoice query review,Westline Contractors,Auckland,Admin,Completed,2026-04-22,2026-05-03,2026-05-02,Olivia Taylor,Low,2,2,Invoice query resolved.
+JOB-011,Equipment calibration,Precision Works,Hamilton,Maintenance,On Hold,2026-04-24,2026-05-24,,Mark Thompson,Medium,6,2,On hold waiting for supplier confirmation.
+JOB-012,Incident action follow-up,Allied Operations,Whakatāne,Support,In Progress,2026-04-25,2026-05-29,,Aroha Williams,High,5,3,Following up open corrective actions.
+JOB-013,New job setup automation test,Allied Operations,Whakatāne,Automation,Completed,2026-04-26,2026-05-06,2026-05-05,Codie Shannon,Critical,9,8.5,Automation test completed successfully.
+JOB-014,Client onboarding checklist update,Admin Services,Whakatāne,Admin,In Progress,2026-04-28,2026-06-03,,Sarah Patel,Medium,4,2.5,Checklist updated; awaiting review.
+JOB-015,Warehouse roller door inspection,East Coast Logistics,Tauranga,Inspection,Overdue,2026-04-29,2026-05-15,,Jack Harris,High,3,1,Inspection overdue; access needs rescheduling.
+JOB-016,Fire extinguisher service coordination,North Yard,Rotorua,Maintenance,Waiting on Client,2026-05-01,2026-05-25,,Grace Lee,Medium,3,1.5,Waiting on client to confirm contractor visit.
+JOB-017,Job closeout report template,Allied Operations,Whakatāne,Reporting,Completed,2026-05-02,2026-05-12,2026-05-11,Codie Shannon,Medium,5,4.5,Template completed and saved.
+JOB-018,Network printer support,Admin Services,Whakatāne,Support,Completed,2026-05-03,2026-05-08,2026-05-08,Ethan Martin,Low,2,2,Printer driver reinstalled.
+JOB-019,Conveyor guard repair,Harbour Engineering,Auckland,Repair,In Progress,2026-05-04,2026-05-30,,Liam Carter,High,8,4,Parts received; repair scheduled.
+JOB-020,Weekly maintenance schedule update,Allied Operations,Whakatāne,Admin,Completed,2026-05-05,2026-05-09,2026-05-09,Olivia Taylor,Low,2,1.5,Schedule updated.
+JOB-021,Power Automate flow documentation,Allied Operations,Whakatāne,Automation,In Progress,2026-05-06,2026-06-05,,Codie Shannon,High,7,3,Flow steps documented; testing notes still needed.
+JOB-022,Vehicle service follow-up,Bay Industrial,Whakatāne,Maintenance,Overdue,2026-05-07,2026-05-18,,Mark Thompson,Medium,3,1,Waiting on updated quote.
+JOB-023,Monthly operations dashboard,Allied Operations,Whakatāne,Reporting,In Progress,2026-05-08,2026-06-07,,Codie Shannon,High,10,5,Dashboard layout underway.
+JOB-024,Customer site access issue,Westline Contractors,Auckland,Support,Waiting on Client,2026-05-09,2026-05-27,,James Walker,Medium,3,1,Waiting for updated access details.
+JOB-025,Crane inspection paperwork,Port Services,Tauranga,Inspection,Completed,2026-05-10,2026-05-19,2026-05-19,Hunter Adams,High,4,3.5,Paperwork completed and filed.
+JOB-026,Safety boardroom account test,Allied Operations,Whakatāne,Automation,Completed,2026-05-11,2026-05-21,2026-05-21,Codie Shannon,Critical,6,6,Test completed with successful workflow run.
+JOB-027,Inventory register cleanup,Admin Services,Whakatāne,Admin,In Progress,2026-05-12,2026-06-10,,Sarah Patel,Medium,5,2.5,Duplicate items being reviewed.
+JOB-028,Site lighting upgrade quote,North Yard,Rotorua,Installation,On Hold,2026-05-13,2026-06-01,,Grace Lee,Medium,4,1,On hold until quote approved.
+JOB-029,Expired training follow-up,Allied Operations,Whakatāne,Support,In Progress,2026-05-14,2026-05-31,,Aroha Williams,High,4,2,Managers being contacted.
+JOB-030,Workshop compressor repair,Bay Industrial,Whakatāne,Repair,Overdue,2026-05-15,2026-05-23,,Jack Harris,Critical,7,3,Repair delayed due to parts availability.
+JOB-031,Client reporting pack,Harbour Engineering,Auckland,Reporting,New,2026-05-16,2026-06-12,,Codie Shannon,Medium,8,0,Initial reporting requirements to be confirmed.
+JOB-032,Job folder permission review,Allied Operations,Whakatāne,Admin,New,2026-05-17,2026-06-08,,Ethan Martin,Medium,4,0,Permissions need review before cleanup.
+JOB-033,Site induction process update,Allied Operations,Whakatāne,Automation,In Progress,2026-05-18,2026-06-15,,Codie Shannon,High,9,2,Process design started.
+JOB-034,Vehicle inspection checklist,North Yard,Rotorua,Inspection,Completed,2026-05-19,2026-05-25,2026-05-24,Mark Thompson,Low,3,2.5,Checklist completed.
+JOB-035,Emergency exit repair,East Coast Logistics,Tauranga,Repair,In Progress,2026-05-20,2026-06-04,,Zoe Mitchell,High,6,2.5,Repair booked with contractor.
+JOB-036,Operations meeting template,Admin Services,Whakatāne,Admin,Completed,2026-05-20,2026-05-26,2026-05-26,Olivia Taylor,Low,2,2,Template completed.
+JOB-037,Monthly compliance review,Allied Operations,Whakatāne,Reporting,New,2026-05-21,2026-06-18,,Aroha Williams,High,6,0,Review to include safety and training items.
+JOB-038,Client portal support,Westline Contractors,Auckland,Support,Cancelled,2026-05-22,2026-05-30,,James Walker,Low,3,0,Cancelled by client.
+JOB-039,Automation error investigation,Allied Operations,Whakatāne,Automation,In Progress,2026-05-23,2026-06-06,,Codie Shannon,Critical,8,4,Investigating failed condition logic.
+JOB-040,Warehouse racking inspection,East Coast Logistics,Tauranga,Inspection,New,2026-05-24,2026-06-14,,Hunter Adams,Medium,5,0,Inspection scheduled.
