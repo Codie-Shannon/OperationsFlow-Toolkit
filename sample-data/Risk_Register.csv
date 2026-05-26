@@ -1,0 +1,31 @@
+RiskID,RiskTitle,Category,Likelihood,Impact,RiskRating,Owner,ReviewDate,Status,Mitigation,Notes
+RSK-001,Forklift and pedestrian interaction,Safety,4,5,20,Aroha Williams,2026-06-15,Active,Review traffic management plan and improve separation controls,High risk due to shared warehouse space.
+RSK-002,Expired training records,Compliance,3,4,12,Vanessa King,2026-06-10,Active,Run monthly training expiry report and notify managers,Linked to training compliance dashboard.
+RSK-003,Manual job setup errors,Operations,4,4,16,Codie Shannon,2026-06-20,Active,Automate job setup workflow and add validation checks,Inspired by job provisioning automation process.
+RSK-004,Delayed corrective action follow-up,Safety,4,4,16,James Walker,2026-06-05,Active,Send overdue action reminders and track action owners,Common issue with spreadsheet-based tracking.
+RSK-005,Outdated controlled documents,Compliance,3,5,15,Sarah Patel,2026-06-25,Active,Create document review reminders and owner-based review queue,Connected to Document Control module.
+RSK-006,Loss of key system knowledge,Operations,3,5,15,Mark Thompson,2026-07-01,Active,Document critical workflows and cross-train staff,Single-person knowledge creates operational risk.
+RSK-007,Incorrect site access permissions,IT,3,4,12,Ethan Martin,2026-06-18,Under Review,Review SharePoint and Teams access permissions quarterly,Permission drift may expose or block information.
+RSK-008,Overdue work orders,Operations,4,3,12,Zoe Mitchell,2026-06-12,Active,Monitor overdue jobs through dashboard and assign owners,Linked to Work Orders module.
+RSK-009,Unapproved document versions,Compliance,2,4,8,Olivia Clark,2026-07-05,Monitoring,Use central register and archive old versions,Version control risk.
+RSK-010,Missed equipment inspections,Safety,3,5,15,Liam Carter,2026-06-30,Active,Create inspection schedule and recurring reminders,Future Equipment Inspections module.
+RSK-011,Client communication delays,Operations,3,3,9,James Walker,2026-07-10,Monitoring,Create clear owner and response tracking process,Moderate operational impact.
+RSK-012,Power Automate flow failure,IT,2,5,10,Codie Shannon,2026-06-22,Under Review,Add error handling and owner notifications,Important for automated workflows.
+RSK-013,Inconsistent data entry,Data Quality,4,3,12,Sarah Patel,2026-06-28,Active,Use choice fields and required columns in Lists,Improves reporting reliability.
+RSK-014,No clear action ownership,Operations,4,4,16,Aroha Williams,2026-06-17,Active,Require AssignedTo and DueDate for all actions,Common follow-up risk.
+RSK-015,Manual reporting workload,Reporting,3,3,9,Codie Shannon,2026-07-15,Monitoring,Use Power BI dashboards and scheduled exports,Reduces recurring admin effort.
+RSK-016,Incomplete incident descriptions,Safety,3,3,9,Grace Lee,2026-07-03,Monitoring,Add incident form guidance and required description field,Improves investigation quality.
+RSK-017,Untracked contractor inductions,Compliance,3,4,12,Vanessa King,2026-06-26,Active,Create contractor induction register and expiry reminders,Future Contractor Inductions module.
+RSK-018,Hardware failure on admin PC,IT,2,4,8,Ethan Martin,2026-07-20,Monitoring,Maintain backup device and document recovery steps,Moderate business continuity risk.
+RSK-019,Incorrect priority assignment,Operations,3,3,9,Zoe Mitchell,2026-07-12,Monitoring,Add priority guidance and manager review,Can affect workload planning.
+RSK-020,High-risk incidents not escalated quickly,Safety,2,5,10,Aroha Williams,2026-06-14,Under Review,Trigger alert when incident risk is High or Critical,Power Automate alert planned.
+RSK-021,Data stored in too many spreadsheets,Data Quality,4,4,16,Codie Shannon,2026-06-21,Active,Centralise records into Lists and Power BI reporting,Core OperationsFlow problem.
+RSK-022,Review dates not maintained,Compliance,3,4,12,Sarah Patel,2026-07-08,Active,Dashboard review queues and automated reminders,Applies to docs/training/risks.
+RSK-023,No audit trail for changes,Compliance,2,4,8,Olivia Clark,2026-07-18,Monitoring,Use SharePoint item history and documented change notes,Future enhancement.
+RSK-024,Staff workload imbalance,Operations,3,3,9,Mark Thompson,2026-07-22,Monitoring,Report workload by assigned person,Linked to Work Orders dashboard.
+RSK-025,Weak backup of process documentation,Operations,2,5,10,Grace Lee,2026-08-01,Under Review,Store process docs in controlled library with owners,Document Control improvement.
+RSK-026,Delayed client approvals,Operations,3,3,9,Olivia Clark,2026-07-28,Monitoring,Track approval status and follow-up owner,Can delay work order completion.
+RSK-027,Inconsistent document naming,Data Quality,3,3,9,Sarah Patel,2026-07-30,Monitoring,Create naming standard and controlled document register,Improves search and reporting quality.
+RSK-028,Incomplete work order notes,Operations,3,3,9,Zoe Mitchell,2026-08-03,Monitoring,Require notes field updates before closing jobs,Improves handover and history.
+RSK-029,Expired licences or certifications,Compliance,3,5,15,Vanessa King,2026-06-29,Active,Training expiry dashboard and manager reminders,Important compliance and safety risk.
+RSK-030,Manual escalation process missed,Safety,3,4,12,James Walker,2026-06-19,Active,Use automated alerts for high-priority items,Supports quicker response to serious issues.

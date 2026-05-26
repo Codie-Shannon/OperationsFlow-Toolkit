@@ -1,6 +1,6 @@
 # OperationsFlow Toolkit
 
-OperationsFlow Toolkit is a modular internal business workflow and reporting demo designed to show how common admin, safety, compliance, document control, work order, and follow-up processes can be centralised, tracked, automated, and reported on.
+OperationsFlow Toolkit is a modular internal business workflow and reporting demo designed to show how common admin, safety, compliance, document control, work order, risk, and follow-up processes can be centralised, tracked, automated, and reported on.
 
 Version 1 started with the **SafetyFlow** module, which demonstrates incident tracking, corrective action management, training/certification expiry tracking, and Power BI dashboard reporting.
 
@@ -8,6 +8,7 @@ The project has since been expanded with:
 
 - Document Control
 - Work Orders / Job Tracking
+- Risk Register
 
 ## Current Status
 
@@ -19,6 +20,7 @@ Completed:
 - Training Compliance dashboard page
 - Document Control dashboard page
 - Work Orders dashboard page
+- Risk Register dashboard page
 - Sample CSV datasets
 - Data model documentation
 - SharePoint / Microsoft Lists design
@@ -27,6 +29,7 @@ Completed:
 - Deployment plan
 - Document Control module documentation
 - Work Orders module documentation
+- Risk Register module documentation
 - GitHub repository package
 
 Pending:
@@ -36,13 +39,12 @@ Pending:
 - Power Apps canvas app build
 - Power Automate flow build
 - Power BI connection to live list data
-- Optional Risk Register module build
 - Optional Equipment Inspection module build
 - Optional Contractor Induction module build
 
 ## Business Problem
 
-Many small businesses track safety incidents, corrective actions, training expiry, document reviews, work orders, compliance tasks, and follow-ups across spreadsheets, emails, folders, and manual reminders.
+Many small businesses track safety incidents, corrective actions, training expiry, document reviews, work orders, risks, compliance tasks, and follow-ups across spreadsheets, emails, folders, and manual reminders.
 
 This can lead to:
 
@@ -52,6 +54,8 @@ This can lead to:
 - outdated policies or procedures
 - unclear document ownership
 - overdue work orders
+- high risks being missed or forgotten
+- unclear risk ownership
 - poor visibility over job status
 - duplicated admin effort
 - slow reporting
@@ -59,7 +63,7 @@ This can lead to:
 
 ## Solution
 
-OperationsFlow centralises key records, tracks ownership and due dates, highlights overdue work, and provides dashboard reporting for management visibility.
+OperationsFlow centralises key records, tracks ownership and due dates, highlights overdue or high-risk work, and provides dashboard reporting for management visibility.
 
 The planned semi-live version extends this by using Microsoft Lists / SharePoint Lists as the backend, Power Apps as the user interface, and Power Automate for reminders and alerts.
 
@@ -70,12 +74,12 @@ The planned semi-live version extends this by using Microsoft Lists / SharePoint
 - Training / Certification Expiry
 - Document Control
 - Work Orders / Job Tracking
+- Risk Register
 - Compliance Dashboard
 - Semi-live Microsoft 365 implementation plan
 
 ## Planned Expansion Modules
 
-- Risk Register
 - Equipment Inspections
 - Contractor Inductions
 - PPE / Gear Register
@@ -115,6 +119,10 @@ Tracks controlled documents, review dates, document status, document ownership, 
 
 Tracks operational jobs, job status, due dates, assigned ownership, overdue work, priority, estimated/actual hours, and workload reporting.
 
+### Risk Register
+
+Tracks business risks, risk ratings, risk ownership, review dates, active risks, high-rated risks, critical risks, and risks under review.
+
 ## Screenshots
 
 ### Executive Overview
@@ -137,6 +145,10 @@ Tracks operational jobs, job status, due dates, assigned ownership, overdue work
 
 ![Work Orders](screenshots/OperationsFlow_WorkOrders_v1.png)
 
+### Risk Register
+
+![Risk Register](screenshots/OperationsFlow_RiskRegister_v1.png)
+
 ## Sample Data
 
 Sample CSV data is stored in the `sample-data` folder:
@@ -146,6 +158,7 @@ Sample CSV data is stored in the `sample-data` folder:
 - `Training_Expiry.csv`
 - `Document_Control.csv`
 - `Work_Orders.csv`
+- `Risk_Register.csv`
 
 ## Data Note
 
@@ -158,12 +171,14 @@ The Power BI report files are stored in the `power-bi` folder:
 - `OperationsFlow_Dashboard_v1.pbix`
 - `OperationsFlow_Dashboard_v1_1.pbix`
 - `OperationsFlow_Dashboard_v1_2.pbix`
+- `OperationsFlow_Dashboard_v1_3.pbix`
 
 Version meaning:
 
 - `v1` = SafetyFlow base dashboard
 - `v1_1` = Document Control module added
 - `v1_2` = Work Orders module added
+- `v1_3` = Risk Register module added
 
 ## Documentation
 
@@ -177,6 +192,7 @@ Supporting documentation is stored in the `docs` folder:
 - `deployment-plan.md`
 - `future-module-document-control.md`
 - `future-module-work-orders.md`
+- `future-module-risk-register.md`
 
 ## Current Workflow
 
@@ -263,11 +279,43 @@ The full design is documented in:
 
 - `docs/future-module-work-orders.md`
 
+## Risk Register Expansion
+
+The Risk Register module helps businesses identify, track, review, and report risks across safety, compliance, operations, IT, reporting, and data quality areas.
+
+The planned Risk Register workflow is:
+
+Risk identified  
+→ likelihood and impact assessed  
+→ risk rating calculated  
+→ owner assigned  
+→ mitigation recorded  
+→ review date set  
+→ dashboard provides visibility
+
+The module tracks:
+
+- risk ID
+- risk title
+- category
+- likelihood
+- impact
+- risk rating
+- owner
+- review date
+- status
+- mitigation
+- notes
+
+The full design is documented in:
+
+- `docs/future-module-risk-register.md`
+
 ## Why This Project Matters
 
 This project demonstrates how manual spreadsheet-based processes can be turned into structured business workflows.
 
-The dashboard layer gives management visibility over open incidents, overdue corrective actions, training compliance, document reviews, and work order status.
+The dashboard layer gives management visibility over open incidents, overdue corrective actions, training compliance, document reviews, work order status, and business risks.
 
 The planned Microsoft 365 semi-live version would allow users to submit and update records through Power Apps, store them in Microsoft Lists / SharePoint Lists, trigger reminders through Power Automate, and report on live data through Power BI.
 
@@ -282,13 +330,15 @@ Future versions could include:
 - Power Apps corrective action tracker
 - Power Apps work order register
 - Power Apps document review register
+- Power Apps risk register form
 - Power Automate high-risk incident alerts
 - Power Automate overdue action reminders
 - Power Automate training expiry reminders
 - Power Automate document review reminders
 - Power Automate overdue work order reminders
+- Power Automate risk review reminders
+- Power Automate critical risk alerts
 - Power BI connection to live Microsoft Lists / SharePoint data
-- Risk Register module
 - Equipment Inspection module
 - Contractor Induction module
 - Teams notifications
@@ -309,20 +359,24 @@ OperationsFlow-Toolkit
 │   ├── power-automate-flows.md
 │   ├── deployment-plan.md
 │   ├── future-module-document-control.md
-│   └── future-module-work-orders.md
+│   ├── future-module-work-orders.md
+│   └── future-module-risk-register.md
 ├── sample-data
 │   ├── Safety_Incidents.csv
 │   ├── Corrective_Actions.csv
 │   ├── Training_Expiry.csv
 │   ├── Document_Control.csv
-│   └── Work_Orders.csv
+│   ├── Work_Orders.csv
+│   └── Risk_Register.csv
 ├── screenshots
 │   ├── OperationsFlow_SafetyFlow_ExecutiveOverview_v1.png
 │   ├── OperationsFlow_SafetyFlow_CorrectiveActions_v1.png
 │   ├── OperationsFlow_SafetyFlow_TrainingCompliance_v1.png
 │   ├── OperationsFlow_DocumentControl_v1.png
-│   └── OperationsFlow_WorkOrders_v1.png
+│   ├── OperationsFlow_WorkOrders_v1.png
+│   └── OperationsFlow_RiskRegister_v1.png
 └── power-bi
     ├── OperationsFlow_Dashboard_v1.pbix
     ├── OperationsFlow_Dashboard_v1_1.pbix
-    └── OperationsFlow_Dashboard_v1_2.pbix
+    ├── OperationsFlow_Dashboard_v1_2.pbix
+    └── OperationsFlow_Dashboard_v1_3.pbix
