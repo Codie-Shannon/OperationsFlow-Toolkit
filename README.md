@@ -18,6 +18,8 @@ Completed:
 - Power Apps screen plan
 - Power Automate flow plan
 - Deployment plan
+- Document Control future module design
+- GitHub repository package
 
 Pending:
 
@@ -26,16 +28,19 @@ Pending:
 - Power Apps canvas app build
 - Power Automate flow build
 - Power BI connection to live list data
+- Optional Document Control dashboard/module build
 
 ## Business Problem
 
-Many small businesses track safety incidents, corrective actions, training expiry, and compliance tasks across spreadsheets, emails, and manual follow-ups.
+Many small businesses track safety incidents, corrective actions, training expiry, document reviews, and compliance tasks across spreadsheets, emails, folders, and manual follow-ups.
 
 This can lead to:
 
 - missed follow-ups
 - overdue corrective actions
 - expired training records
+- outdated policies or procedures
+- unclear document ownership
 - slow reporting
 - limited management visibility
 - duplicated admin effort
@@ -53,6 +58,17 @@ The planned semi-live version extends this by using Microsoft Lists / SharePoint
 - Training / Certification Expiry
 - Compliance Dashboard
 - Semi-live Microsoft 365 implementation plan
+
+## Planned Expansion Modules
+
+- Document Control
+- Risk Register
+- Equipment Inspections
+- Contractor Inductions
+- PPE / Gear Register
+- Monthly Compliance Reporting
+- Teams notifications
+- PDF/email report generation
 
 ## Tools Used
 
@@ -119,6 +135,7 @@ Supporting documentation is stored in the `docs` folder:
 - `power-apps-screen-plan.md`
 - `power-automate-flows.md`
 - `deployment-plan.md`
+- `future-module-document-control.md`
 
 ## Current Workflow
 
@@ -138,22 +155,67 @@ Incident submitted through Power Apps
 → overdue reminders sent automatically  
 → Power BI reports from live list data
 
+## Document Control Expansion
+
+The Document Control module is a planned expansion for OperationsFlow Toolkit.
+
+This module would help businesses track policies, procedures, forms, registers, templates, and other controlled documents so review dates, version updates, ownership, and document status are easier to manage.
+
+The planned Document Control workflow is:
+
+Document created  
+→ owner assigned  
+→ review date set  
+→ status tracked  
+→ reminders sent when review is due or overdue  
+→ dashboard provides visibility
+
+The module would use Microsoft Lists / SharePoint Lists to track:
+
+- document name
+- document ID
+- document type
+- department
+- owner
+- version
+- status
+- last reviewed date
+- next review date
+- days until review
+- document link
+- notes
+
+The full design is documented in:
+
+- `docs/future-module-document-control.md`
+
 ## Why This Project Matters
 
 This project demonstrates how a manual spreadsheet-based process can be turned into a structured business workflow.
 
 The dashboard layer gives management visibility over open incidents, overdue corrective actions, and training compliance. The planned Microsoft 365 semi-live version would allow users to submit records through Power Apps, store them in Microsoft Lists / SharePoint Lists, trigger reminders through Power Automate, and report on live data through Power BI.
 
-## Future Modules
+The same workflow pattern can be reused across other business areas, including document control, risk management, equipment checks, contractor onboarding, and monthly reporting.
 
-- Document Control
-- Risk Register
-- Equipment Inspections
-- Contractor Inductions
-- PPE / Gear Register
-- Monthly Compliance Reporting
+## Future Improvements
+
+Future versions could include:
+
+- Microsoft Lists / SharePoint Lists deployment
+- Power Apps incident submission form
+- Power Apps corrective action tracker
+- Power Automate high-risk incident alerts
+- Power Automate overdue action reminders
+- Power Automate training expiry reminders
+- Power BI connection to live Microsoft Lists / SharePoint data
+- Document Control dashboard page
+- Risk Register module
+- Equipment Inspection module
+- Contractor Induction module
 - Teams notifications
-- PDF/email report generation
+- PDF/email reporting
+- role-based views
+- manager-specific dashboards
 
 ## Repository Structure
 
@@ -166,7 +228,8 @@ OperationsFlow-Toolkit
 │   ├── sharepoint-list-design.md
 │   ├── power-apps-screen-plan.md
 │   ├── power-automate-flows.md
-│   └── deployment-plan.md
+│   ├── deployment-plan.md
+│   └── future-module-document-control.md
 ├── sample-data
 │   ├── Safety_Incidents.csv
 │   ├── Corrective_Actions.csv
