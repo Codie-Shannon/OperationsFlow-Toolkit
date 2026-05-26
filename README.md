@@ -107,6 +107,10 @@ Tracks training records, valid training, expiring soon records, expired training
 
 ![Training Compliance](screenshots/OperationsFlow_SafetyFlow_TrainingCompliance_v1.png)
 
+### Document Control
+
+![Document Control](screenshots/OperationsFlow_DocumentControl_v1.png)
+
 ## Sample Data
 
 Sample CSV data is stored in the `sample-data` folder:
