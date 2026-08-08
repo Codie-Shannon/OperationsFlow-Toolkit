@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "project":  "OperationsFlow Toolkit",
+    "version":  "1.3.0",
+    "approved":  true,
+    "reviewedBy":  "Codie Shannon",
+    "reviewedUtc":  "2026-08-08T05:18:03.8322705+00:00",
+    "latestPbixSha256":  "2AF77A1AADD16081744D29C518DF98ED5C669522BEAD285D68138BEC631D3D96",
+    "csvSha256":  {
+                      "sample-data/Safety_Incidents.csv":  "DDCA0CEFCCD25227AA02F7C70B301178E1876C21FF84601272FB871F6C396C22",
+                      "sample-data/Corrective_Actions.csv":  "B675B4C8E7E7840BC0068E0D54237E54A566B3D7E81C3479ACF473743299DC9B",
+                      "sample-data/Training_Expiry.csv":  "D080A9A0FC4AAD9CA87744AF6874AFBCD5B07F58720F913D945FAC8965F4982C",
+                      "sample-data/Document_Control.csv":  "E00DB789CB04BC4D36BEC77FA50C29EA8A8B4839B24C4D592F6FF9AC9C7BDB12",
+                      "sample-data/Work_Orders.csv":  "20486EA2C6A5869D853DEDDDDDE9A4D3C50DE561DF35CC74F4B17B24D562734E",
+                      "sample-data/Risk_Register.csv":  "87AB4243067E44E74E5DBBEE9897D4D2D05B24A127DB3B05CEAC51762E6E39E3"
+                  },
+    "checks":  [
+                   "Executive Overview rendered",
+                   "Corrective Actions rendered",
+                   "Training Compliance rendered",
+                   "Document Control rendered",
+                   "Work Orders rendered",
+                   "Risk Register rendered",
+                   "synthetic data boundary confirmed",
+                   "Microsoft 365 design-only boundary confirmed"
+               ]
+}

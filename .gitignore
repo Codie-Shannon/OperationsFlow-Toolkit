@@ -1,0 +1,6 @@
+artifacts/
+*.tmp
+*.temp
+~$*.pbix
+Thumbs.db
+.DS_Store
